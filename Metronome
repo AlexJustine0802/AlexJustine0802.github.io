@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Metronome</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+    .metronome {
+      text-align: center;
+      background-color: #fff;
+      padding: 30px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .metronome h1 {
+      margin-bottom: 20px;
+    }
+    .controls {
+      margin-bottom: 20px;
+    }
+    .bpm-display {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="metronome">
+  <h1>Metronome</h1>
+  <div class="bpm-display">BPM: <span id="bpm">100</span></div>
+  <div class="controls">
+    <button onclick="decreaseBPM()">-</button>
+    <button onclick="increaseBPM()">+</button>
+  </div>
+  <button onclick="toggleMetronome()">Start</button>
+</div>
+
+<audio id="click-sound" src="https://www.soundjay.com/button/beep-07.wav" preload="auto"></audio>
+
+<script>
+  let bpm = 100;
+  let interval;
+  let isRunning = false;
+
+  const bpmDisplay = document.getElementById('bpm');
+  const clickSound = document.getElementById('click-sound');
+
+  function playClick() {
+    clickSound.currentTime = 0;  // Reset audio time to 0 for quick repeat
+    clickSound.play();
+  }
+
+  function startMetronome() {
+    interval = setInterval(playClick, (60 / bpm) * 1000);
+  }
+
+  function stopMetronome() {
+    clearInterval(interval);
+  }
+
+  function toggleMetronome() {
+    if (isRunning) {
+      stopMetronome();
+      isRunning = false;
+      document.querySelector('button[onclick="toggleMetronome()"]').textContent = 'Start';
+    } else {
+      startMetronome();
+      isRunning = true;
+      document.querySelector('button[onclick="toggleMetronome()"]').textContent = 'Stop';
+    }
+  }
+
+  function increaseBPM() {
+    bpm++;
+    bpmDisplay.textContent = bpm;
+    if (isRunning) {
+      stopMetronome();
+      startMetronome();
+    }
+  }
+
+  function decreaseBPM() {
+    if (bpm > 30) {
+      bpm--;
+      bpmDisplay.textContent = bpm;
+      if (isRunning) {
+        stopMetronome();
+        startMetronome();
+      }
+    }
+  }
+</script>
+
+</body>
+</html>
