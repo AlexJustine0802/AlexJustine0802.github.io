@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chord Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #555;
+            color: white;
+        }
+        td {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chord Library</h1>
+
+    <h2>Major Chords (1 - 3 - 5)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Chord</th>
+                <th>Formula</th>
+                <th>Guitar Diagram</th>
+                <th>Piano Diagram</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C</td>
+                <td>C - E - G</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>C♯</td>
+                <td>C♯ - F - G♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>D - F♯ - A</td>
+                <td><img src="path_to_guitar_dmaj.png"></td>
+                <td><img src="path_to_piano_dmaj.png"></td>
+            </tr>
+            <tr>
+                <td>D♯</td>
+                <td>D♯ - G - A♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>E</td>
+                <td>E - G♯ - B</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>F</td>
+                <td>F - A - C</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>F♯</td>
+                <td>F♯ - A♯ - C♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>G - B - D</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>G♯</td>
+                <td>G♯ - C - D♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>A - C♯ - E</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>A♯</td>
+                <td>A♯ - D - F</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>B - D♯ - F♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Minor Chords (1 - ♭3 - 5)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Chord</th>
+                <th>Formula</th>
+                <th>Guitar Diagram</th>
+                <th>Piano Diagram</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cm</td>
+                <td>C - D♯ - G</td>
+                <td><img src="path_to_guitar_amin.png"></td>
+                <td><img src="path_to_piano_amin.png"></td>
+            </tr>
+            <tr>
+                <td>C♯m</td>
+                <td>C♯ - E G♯</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>Dm</td>
+                <td>D - F - A</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>D♯m</td>
+                <td>D♯ - F♯ - A♯</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>Em</td>
+                <td>E - G - B</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>Fm</td>
+                <td>F - G♯ - C</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>F♯m</td>
+                <td>F♯ - A - C♯</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>Gm</td>
+                <td>G - A♯ - D</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>G♯m</td>
+                <td>G♯ - B - D♯</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>Am</td>
+                <td>A - C - E</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>A♯m</td>
+                <td>A♯ - C♯ - F</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+            <tr>
+                <td>Bm</td>
+                <td>B - D - F♯</td>
+                <td><img src="path_to_guitar_emin.png"></td>
+                <td><img src="path_to_piano_emin.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Dominant Seventh Chords (1 - 3 - 5 - ♭7)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Chord</th>
+                <th>Formula</th>
+                <th>Guitar Diagram</th>
+                <th>Piano Diagram</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C7</td>
+                <td>C - E - G - A♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>C♯7</td>
+                <td>C♯ - F - G♯ - B</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>D7</td>
+                <td>D - F♯ - A - C</td>
+                <td><img src="path_to_guitar_dmaj.png"></td>
+                <td><img src="path_to_piano_dmaj.png"></td>
+            </tr>
+            <tr>
+                <td>D♯7</td>
+                <td>D♯ - G - A♯ - C♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>E7</td>
+                <td>E - G♯ - B - D</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>F7</td>
+                <td>F - A - C - D♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>F♯7</td>
+                <td>F♯ - A♯ - C♯ - E</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>G7</td>
+                <td>G - B - D - F</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>G♯7</td>
+                <td>G♯ - C - D♯ - F♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>A7</td>
+                <td>A - C♯ - E - G</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>A♯7</td>
+                <td>A♯ - D - F - G♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>B7</td>
+                <td>B - D♯ - F♯ - A</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Fifth Chords/Power Chords (1 - 5)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Chord</th>
+                <th>Formula</th>
+                <th>Guitar Diagram</th>
+                <th>Piano Diagram</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C5</td>
+                <td>C - G</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>C♯5</td>
+                <td>C♯ - G♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>D5</td>
+                <td>D - A</td>
+                <td><img src="path_to_guitar_dmaj.png"></td>
+                <td><img src="path_to_piano_dmaj.png"></td>
+            </tr>
+            <tr>
+                <td>D♯5</td>
+                <td>D♯ - A♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>E5</td>
+                <td>E - B</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>F5</td>
+                <td>F - C</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>F♯5</td>
+                <td>F♯ - C♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>G5</td>
+                <td>G - D</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>G♯5</td>
+                <td>G♯ - D♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>A5</td>
+                <td>A - E</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>A♯5</td>
+                <td>A♯ - F</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>B5</td>
+                <td>B - F♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Minor Seventh Chords (1 - ♭3 - 5 - ♭7)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Chord</th>
+                <th>Formula</th>
+                <th>Guitar Diagram</th>
+                <th>Piano Diagram</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cm7</td>
+                <td>C - D♯ - G - A♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>C♯m7</td>
+                <td>C♯ - E - G♯ - B</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>Dm7</td>
+                <td>D - F - A - C</td>
+                <td><img src="path_to_guitar_dmaj.png"></td>
+                <td><img src="path_to_piano_dmaj.png"></td>
+            </tr>
+            <tr>
+                <td>D♯m7</td>
+                <td>D♯ - F♯ - A♯ - C♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>Em7</td>
+                <td>E - G - B - D</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>Fm7</td>
+                <td>F - G♯ - C - D♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>F♯7</td>
+                <td>F♯ - A - C♯ - E</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>Gm7</td>
+                <td>G - A♯ - D - F</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>G♯m7</td>
+                <td>G♯ - B - D♯ - F♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>Am7</td>
+                <td>A - C - E - G</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>A♯m7</td>
+                <td>A♯ - C♯ - F - G♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>Bm7</td>
+                <td>B - D - F♯ - A</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+        </tbody>
+    </table>    
+
+    <h2>Major Seventh Chords (1 - 3 - 5 - 7)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Chord</th>
+                <th>Formula</th>
+                <th>Guitar Diagram</th>
+                <th>Piano Diagram</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CM7</td>
+                <td>C - E - G - B</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>C♯M7</td>
+                <td>C♯ - F - G♯ - C</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>DM7</td>
+                <td>D - F♯ - A - C♯</td>
+                <td><img src="path_to_guitar_dmaj.png"></td>
+                <td><img src="path_to_piano_dmaj.png"></td>
+            </tr>
+            <tr>
+                <td>D♯M7</td>
+                <td>D♯ - G - A♯ - D</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>EM7</td>
+                <td>E - G♯ - B - D♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>FM7</td>
+                <td>F - A - C - E</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>F♯M7</td>
+                <td>F♯ - A♯ - C♯ - F</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>GM7</td>
+                <td>G - B - D - F♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>G♯M7</td>
+                <td>G♯ - C - D♯ - G</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>AM7</td>
+                <td>A - C♯ - E - G♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>A♯M7</td>
+                <td>A♯ - D - F - A</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+            <tr>
+                <td>BM7</td>
+                <td>B - D♯ - F♯ - A♯</td>
+                <td><img src="path_to_guitar_cmaj.png"></td>
+                <td><img src="path_to_piano_cmaj.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
